@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
 
 body{
     font-family: 'Nunito', sans-serif;
@@ -31,4 +32,65 @@ header div.container div.menu nav a{
     width: 80px;
     padding-left: 100px;
     letter-spacing: 0.5px;
+}
+
+main section.topo{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+main section.topo div.texto{
+    max-width: 100%;
+}
+
+main section.topo div.texto h2{
+    font-size: 40px;
+    font-weight: 800;
+    width: 560px;
+    max-width: 100%;
+    margin-right: 65px;
+    text-transform: uppercase;
+ }
+
+main section.topo div.imagem img{
+    max-width: 100%;
+}
+
+main section.destaques{
+    max-width: 100%;
+    margin: 100px 0;
+    height: 684px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section.destaques div.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+main section.destaques div.servicos {
+    display: flex;
+    justify-content: space-around;
+}
+
+main section.destaques div.servicos article div{
+    background-color: #FFFFFF;
+    width: 266px;
+    height: 264px;
+}
+
+main section.informacoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+main section.informacoes div.texto{
+    width: 561px;
 }
