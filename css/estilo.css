@@ -78,19 +78,69 @@ main section.destaques div.titulo{
 main section.destaques div.servicos {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 main section.destaques div.servicos article div{
     background-color: #FFFFFF;
     width: 266px;
+    max-width: 100%;
     height: 264px;
 }
 
 main section.informacoes{
     display: flex;
     justify-content: space-around;
+    padding: 100px;
 }
 
 main section.informacoes div.texto{
     width: 561px;
+    max-width: 100%;
+}
+
+main section.informacoes div.texto h2{
+    color: #757575;
+    font-size: 27px;
+}
+
+main section.informacoes div.texto p{
+    color: #757575;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #FFBE51;
+}
+
+footer div.container{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding: 40px;
+}
+
+footer div.container div.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div.container div.mapa{
+    height: 100%;
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer div.container div.mapa iframe{
+    height: 100%;
+    width: 100%;
+}
+
+footer div.copyright{
+    height: 57px;
+    width: 100%;
+    background-color: #C4C4C4;
 }
